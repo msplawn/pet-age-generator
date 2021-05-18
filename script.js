@@ -1,12 +1,17 @@
-const genBtn = document.getElementById("generate-button");
-const ageEl = document.getElementById("age");
-
-const init = () => {
-    const inputs = inputs();
-}
-
-const inputs = () => {
+$(document).ready(() => {
+    // const init = () => {
+    //     const inputs = inputs();
+    // }
     
-}
+    // const inputs = () => {
+        
+    // }
+    $("#start").click(() => {
+        console.log("hello")
+        $('.modal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+          })
+    })
+})
 
-ageEl.addEventListener("click", init);
+
