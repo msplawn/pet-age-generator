@@ -48,7 +48,7 @@ $(document).ready(() => {
         const humanYears = humanYearsArr[petIndex];
         console.log(humanYears)
 
-        $("#output").text(humanYears)
+        $("#output").text(`${humanYears} years old`);
     }
 
     const littleDog = petInfo => {
@@ -59,7 +59,7 @@ $(document).ready(() => {
         const humanYears = humanYearsArr[petIndex];
         console.log(humanYears)
 
-        $("#output").text(humanYears)
+        $("#output").text(`${humanYears} years old`);
     }
 
     const mediumDog = petInfo => {
@@ -70,7 +70,7 @@ $(document).ready(() => {
         const humanYears = humanYearsArr[petIndex];
         console.log(humanYears)
 
-        $("#output").text(humanYears)
+        $("#output").text(`${humanYears} years old`);
     }
 
     const bigDog = petInfo => {
@@ -81,7 +81,7 @@ $(document).ready(() => {
         const humanYears = humanYearsArr[petIndex];
         console.log(humanYears)
 
-        $("#output").text(humanYears)
+        $("#output").text(`${humanYears} years old`);
     }
 
 
