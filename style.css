@@ -19,6 +19,12 @@ footer {
 	background-image: linear-gradient(rgb(24, 24, 24), rgb(39, 39, 39));
 }
 
+.title-logo {
+	height: 7vh;
+	display: flex;
+	align-items: center;
+}
+
 h1, h2 {
 	color:#c3c3c3;
   margin-left:auto;
@@ -31,6 +37,11 @@ h1 {
 	padding: 10px;
 	display: table-cell;
 	margin: 0 !important;
+}
+
+.paw {
+	height: 40px;
+	text-shadow: 3px 3px 3px #000000;
 }
 
 p {
